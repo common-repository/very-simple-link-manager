@@ -1,0 +1,73 @@
+/* For reference only - plugin loads the minified CSS file */
+
+/* VS Link Manager stylesheet */
+
+/* Blogroll container (ul) */
+#vslm {clear:both; margin:0; padding:0; border:0; background:none; list-style:none;}
+#vslm:after {content:''; display:block; height:0; clear:both;}
+
+/* Fix for default Twenty themes (ul) */
+.vslm-twenty .entry-content #vslm {margin-left:auto; margin-right:auto;}
+
+/* Misc */
+#vslm ul {margin:0; padding:0; border:0; background:none;}
+#vslm li {margin:0; padding:0; border:0; background:none;}
+#vslm a {margin:0; padding:0; border:0; background:none; box-shadow:none; text-decoration:none;}
+#vslm a:hover {text-decoration:underline;}
+
+/* One column (li) */
+#vslm.vslm-one li.vslm-cat-list {width:100%; margin:0 0 20px 0; float:left;}
+
+/* Two columns (li) */
+#vslm.vslm-two li.vslm-cat-list {width:48%; margin:0 4% 20px 0; float:left; list-style:none;}
+#vslm.vslm-two li.vslm-cat-list:nth-of-type(2n+1) {clear:left;}
+#vslm.vslm-two li.vslm-cat-list:nth-of-type(2n+0) {margin:0 0 20px 0;}
+
+/* Three columns (li) */
+#vslm.vslm-three li.vslm-cat-list {width:30%; margin:0 5% 20px 0; float:left;}
+#vslm.vslm-three li.vslm-cat-list:nth-of-type(3n+1) {clear:left;}
+#vslm.vslm-three li.vslm-cat-list:nth-of-type(3n+0) {margin:0 0 20px 0;}
+
+/* Four columns (li) */
+#vslm.vslm-four li.vslm-cat-list {width:22%; margin:0 4% 20px 0; float:left;}
+#vslm.vslm-four li.vslm-cat-list:nth-of-type(4n+1) {clear:left;}
+#vslm.vslm-four li.vslm-cat-list:nth-of-type(4n+0) {margin:0 0 20px 0;}
+
+/* Category name */
+.vslm-cat-name {margin:0 0 10px; padding:0 0 10px; font-size:1.2em; line-height:1.2em; font-weight:bold; border-bottom:1px solid #ccc;}
+
+/* Category description */
+.vslm-cat-description {margin:0 0 10px;}
+.vslm-cat-description p {margin:0 0 10px; padding:0;}
+.vslm-cat-description p:last-of-type {margin-bottom:0;}
+
+/* Link list (ul) */
+.vslm-link-list {}
+
+/* Link (li) */
+#vslm li.vslm-link {margin:0 0 0 20px;}
+#vslm li.vslm-li-image {margin:0; list-style:none;}
+
+/* Link image */
+.vslm-link-image img {display:block; max-width:100%; height:auto; margin:0; padding:10px 0; border:0;}
+
+/* Link description */
+.vslm-link-description {font-size:0.8em;}
+
+/* No categories notification */
+.vslm-no-categories {margin:0; padding:0 0 20px;}
+
+/* Mobile */
+@media screen and (max-width:767px) {
+	/* Three columns (li) */
+	#vslm.vslm-three li.vslm-cat-list {width:48%; margin:0 4% 20px 0;}
+	#vslm.vslm-three li.vslm-cat-list:nth-of-type(3n+1) {clear:none;}
+	#vslm.vslm-three li.vslm-cat-list:nth-of-type(3n+0) {margin:0 4% 20px 0;}
+	#vslm.vslm-three li.vslm-cat-list:nth-of-type(2n+1) {clear:left;}
+	#vslm.vslm-three li.vslm-cat-list:nth-of-type(2n+0) {margin:0 0 20px 0;}
+
+	/* Four columns (li) */
+	#vslm.vslm-four li.vslm-cat-list {width:48%; margin:0 4% 20px 0;}
+	#vslm.vslm-four li.vslm-cat-list:nth-of-type(2n+1) {clear:left;}
+	#vslm.vslm-four li.vslm-cat-list:nth-of-type(2n+0) {margin:0 0 20px 0;}
+}

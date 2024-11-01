@@ -1,0 +1,63 @@
+== Changelog VS Link Manager ==
+
+= Version 2.5 =
+* New: set number of columns via the block settings, instead of using an attribute
+* Changed attribute no_link_categories_text into no_categories_text
+
+= Version 2.4 =
+* Changed several attribute names, to make it more clear for users
+* This means you might have to update your attributes
+* Attribute limit becomes links_per_category
+* Attribute hide_title becomes hide_link_title
+* Attribute hide_description becomes hide_link_description
+* Minor changes in code
+
+= Version 2.3 =
+* New: VS Link Manager block
+* Block editor users can now replace their shortcode block with the VS Link Manager block
+
+= Version 2.2 =
+* Minor changes in code
+
+= Version 2.1 =
+* Added extra validation for link category query
+* Minor changes in code
+
+= Version 2.0 =
+* Bumped the "requires PHP" version to 7.0
+* Bumped the "requires at least" version to 5.0
+
+= Version 1.9 =
+* Minor changes in code
+
+= Version 1.8 =
+* Minor changes in code
+
+= Version 1.7 =
+* Minor changes in code
+
+= Version 1.6 =
+* Removed function load_plugin_textdomain() because redundant
+* Plugin uses the WP language packs for its translation
+* Kept translation folder for reference
+* Because of this change plugin now requires at least WP 4.6
+
+= Version 1.5 =
+* Plugin has a new name
+* But plugin itself and ownership did not change
+
+= Version 1.4 =
+* Textual changes
+
+= Version 1.3 =
+* Fix: custom CSS class
+
+= Version 1.2 =
+* New: attribute for adding custom CSS class to the link list
+* Better validating, sanitizing and escaping
+
+= Version 1.1 =
+* New: extra order and orderby attributes for links
+
+= Version 1.0 =
+* First stable release
